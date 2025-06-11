@@ -39,13 +39,13 @@ pip install numpy matplotlib scikit-image
 2. No script Python, edite a linha:
 
 ```python
-imagem = io.imread('caminho/para/sua_imagem.png', as_gray=True)
+imagem = io.imread('reconstrucao-mofologica/imagens/sua_imagem.png', as_gray=True)
 ```
 
 3. Execute o script no terminal ou em um ambiente como Jupyter Notebook:
 
 ```bash
-python seu_arquivo.py
+python reconstrucao_mofologica.py
 ```
 
 ---
